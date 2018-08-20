@@ -1,4 +1,3 @@
-const path = require('path');
 require('loud-rejection')();
 
 require('coa').Cmd()
