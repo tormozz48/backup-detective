@@ -1,0 +1,22 @@
+{
+  "name": "backup-detective",
+  "version": "1.0.0",
+  "description": "CLI utility for restore local mongo database from repository with backups",
+  "main": "index.js",
+  "repository": "git@github.com:tormozz48/backup-detective.git",
+  "author": "tormozz48 <tormozz48@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "coa": "^2.0.1",
+    "lodash": "^4.17.10",
+    "loud-rejection": "^1.6.0",
+    "moment": "^2.22.2",
+    "simple-git": "^1.96.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-gemini-testing": "^2.8.0"
+  }
+}
